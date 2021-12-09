@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+    <link rel="stylesheet" href="/cs/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#" class="ctn">Contact</a></li>
+        </ul>
+        <div id="burger">
+            <div class="lines"></div>
+            <div class="lines"></div>
+            <div class="lines"></div>
+        </div>
+    </nav>
+  <header>
+      <div class="header-content">
+          <h2>Explore The Colorful World</h2>
+          <div class="line"></div>
+          <h1>WONDERFUL GIFT</h1>
+          <a href="" class="ctn">Learn More</a>
+      </div>
+  </header>
+
+
+  <section>
+      <div class="title">
+          <h1>Upcoming Events</h1>
+          <div class="line"></div>
+      </div>
+      <div class="row">
+          <div class="col-1">
+              <img src="/pexels-alex-azabache-3214944.jpg" alt="">
+              <h1>Everest Camp Trek</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis magnam provident amet debitis. Perferendis, incidunt exercitationem veniam qui optio fugiat expedita soluta sapiente iure sequi, obcaecati ipsa ipsum corporis!</p>
+
+              <a href="#" class="ctn">Learn More</a>
+              </div>
+          <div class="col-2">
+              <img src="/pexels-alex-azabache-3214944.jpg" alt="">
+              <h1>Everest Camp Trek</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus blanditiis magnam provident amet debitis. Perferendis, incidunt exercitationem veniam qui optio fugiat expedita soluta sapiente iure sequi, obcaecati ipsa ipsum corporis!</p>
+              <a href="#" class="ctn">Learn More</a>
+          </div>
+        
+      </div>
+  </section>
+  <section class="explore">
+     <div class="explore-content">
+        <h1>EXPLORE THE WORLD</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis tempore ab assumenda sit, odit maxime voluptas ea cupiditate harum commodi earum, nesciunt veniam quidem eaque? Perspiciatis nemo cumque perferendis ea.</p>
+        <a href="#" class="ctn">Learn More</a>
+     </div>
+  </section>
+  <script>
+      let burger = document.getElementById('burger')
+      let navlink = document.querySelector('.nav-link')
+      burger.addEventListener('click',()=>{
+      navlink.classList.toggle('mobile')
+  })
+  </script>
+</body>
+</html>
